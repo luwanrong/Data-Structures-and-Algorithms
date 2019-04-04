@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: data - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPC137.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /Fp"Debug/data.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ     /c 
+"F:\Projects\data\dat.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPC137.tmp" 
+<h3>Output Window</h3>
+Compiling...
+dat.cpp
+f:\projects\data\dat.cpp(65) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+dat.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

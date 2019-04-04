@@ -1,0 +1,20 @@
+// data.idl : IDL source for data.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (data.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(DB9B0F5C-C0CA-4576-B869-36A652B8FAFC),
+	version(1.0),
+	helpstring("data 1.0 Type Library")
+]
+library DATALib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};
